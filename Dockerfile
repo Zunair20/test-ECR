@@ -15,6 +15,12 @@ COPY app.py .
 
 CMD ["python", "app.py"]
 
+
+# flask==1.0
+# requests==2.0
+# urllib3==2.0
+# idna==2.0
+
 # FROM python:3.11-slim
 
 # WORKDIR /app
